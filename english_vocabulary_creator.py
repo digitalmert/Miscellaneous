@@ -61,7 +61,7 @@ for word in content:
     findings['Synonym'].append(synonym)
     findings['Antonym'].append(antonym)
 
-pd.DataFrame(data=findings).to_csv("C:/Users/mert.atli/Desktop/Gre_Word_Definitions", columns=['Word','Definition','Example','Synonym','Antonym'], index=False)
+pd.DataFrame(data=findings).to_csv(saveUrl, columns=['Word','Definition','Example','Synonym','Antonym'], index=False)
 
 
 
