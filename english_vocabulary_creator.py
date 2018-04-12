@@ -35,7 +35,7 @@ for word in content:
     ##Fetching example
     try:
         example = soup_examp.find('span', class_='example').get_text()
-    except:
+    except: 
         example = ""
         print("example: " + word + "Not Found..."),
 
